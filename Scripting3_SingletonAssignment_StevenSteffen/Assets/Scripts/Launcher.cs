@@ -10,4 +10,10 @@ public class Launcher : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void QuitGame()
+    {
+        Debug.Log("CLICKED QUIT");
+        Application.Quit();
+    }
 }

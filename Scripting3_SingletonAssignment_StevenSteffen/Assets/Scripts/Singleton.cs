@@ -30,6 +30,11 @@ public class Singleton : MonoBehaviour
     [Header("Scene Management")]
     private static int sceneCounter = 1;
 
+    [Header("Lives")]
+    public int livesRemaining = 10;
+    public TextMeshProUGUI playerLives;
+
+
     #endregion
     #region Main Functions
     private void Awake()
